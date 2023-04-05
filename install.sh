@@ -31,6 +31,8 @@ echo "Starting app container..."
 echo "Generating application key..."
 ./vendor/bin/sail artisan key:generate
 
+
+
 sleep 30 & PID=$! #simulate a long process
 
 echo "Processing please be patient..."
